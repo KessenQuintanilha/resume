@@ -25,7 +25,7 @@ export class AboutMe {
 
   githubLink = 'https://github.com/KessenQuintanilha';
   linkedinLink = 'https://www.linkedin.com/in/kessenquintanilha/';
-  resumeLink = 'assets/files/Curriculo-kessen-it.pdf';
+  resumeLink = '/files/Curriculo-kessen-it.pdf';
 
 
   titulo1="About me";
