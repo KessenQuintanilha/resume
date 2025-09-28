@@ -1,0 +1,46 @@
+<div class="app-container">
+  <div class="text">
+    <h1> Késsen Quintanilha </h1>
+    <h3> Junior Software Engineer | PHC | Ai Enthusiast </h3>
+    <img class="foto" src="assets/images/Foto-CV.jpg" alt="Minha foto">
+
+    <h3> Social Media / Redes Sociais </h3>
+
+    <!-- Botões com links-->
+
+    <div class="buttons-container">
+      <a mat-raised-button color="primary" [href]="githubLink" target="_blank">
+        <fa-icon [icon]="faGithub"></fa-icon> GitHub
+      </a>
+
+      <a mat-raised-button color="accent" [href]="linkedinLink" target="_blank">
+        <fa-icon [icon]="faLinkedin"></fa-icon> LinkedIn
+      </a>
+
+      <a mat-raised-button color="warn" [href]="resumeLink" target="_blank" download>
+        <fa-icon [icon]="faDownload"></fa-icon> Currículo
+      </a>
+
+    </div>
+    <br><br>
+       <!-- Textos PT - EN -->
+
+    <h1>
+      <img src="assets/images/bandeiras/Eua_flag.jpg" alt="EUA" class="flag">  {{ titulo1 }}
+    </h1>
+
+    <h4 class="descricao">{{ titulo2 }}</h4>
+
+    <h1>
+      <img src="assets/images/bandeiras/Brasil_flag.jpg" alt="Brasil" class="flag"> {{ titulo3 }}
+    </h1>
+
+    <h4 class="descricao">{{ titulo4 }}</h4>
+
+
+    <br><br>
+
+  </div>
+
+
+</div>

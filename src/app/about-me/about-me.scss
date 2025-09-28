@@ -1,0 +1,38 @@
+.text {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 8px;
+ text-align: center;
+}
+
+.foto {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.descricao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: pre-line;
+  flex-direction: column;
+  text-align: justify;
+  white-space: pre-line; // faz o navegador respeitar as quebras de linha do texto
+  line-height: 1.6;      // melhora a legibilidade
+}
+
+.flag {
+  width: 35px;          // tamanho da bandeira
+  height: auto;
+}

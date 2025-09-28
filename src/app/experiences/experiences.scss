@@ -1,0 +1,23 @@
+.flag {
+  width: 35px;          // tamanho da bandeira
+  height: auto;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  white-space: pre-line; // faz o navegador respeitar as quebras de linha do texto
+  line-height: 1.6;      // melhora a legibilidade
+}
+
+.text {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 8px;
+ text-align: center;
+}
+
+
