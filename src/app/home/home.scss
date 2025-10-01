@@ -77,3 +77,16 @@
   color: #11025b;
   font-weight: bold;
 }
+
+:host {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  mat-drawer.menu {
+    width: 250px; /* largura menor no celular */
+  }
+  mat-drawer-content.conteudo {
+    margin-left: 0; /* para ocupar toda a tela */
+  }
+}
