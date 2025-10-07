@@ -22,6 +22,6 @@ export const routes: Routes = [
       {path: '', redirectTo: 'about-me', pathMatch: 'full'},
     ]
   },
-  { path: '***', redirectTo: '' } // redireciona / → /home
+  { path: '**', redirectTo: '' } // redireciona / → /home
 
 ];
