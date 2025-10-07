@@ -11,10 +11,19 @@
 </head>
 <body>
   <app-root></app-root>
-  <script
-    src="https://app.livechatai.com/embed.js"
-    data-id="cmg85no2f0001l704d2p7d81h"
-    async defer>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "9dd88ab1-a6a9-4e05-87be-6c5787a6837b", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "b66abe06-9df1-48ce-8315-1c016ea3f6f3", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
   </script>
+
 </body>
 </html>
