@@ -22,5 +22,5 @@ Write-Host "Enviando arquivos para a branch gh-pages..."
 npx gh-pages -d dist/curriculo_online/browser -b gh-pages -r $repoUrl
 
 Write-Host "==============================="
-Write-Host "     Deploy concluído! 🎉      "
+Write-Host "     🎉  Deploy concluído! 🎉      "
 Write-Host "==============================="
